@@ -1,3 +1,10 @@
+# typint, lista e dicionario
+
+idade: int = 0
+altura: float = 1.78
+nome: str = "AAA"
+is_estudande: bool = True
+
 # lista
 #%%
 produtos = ["Produto A", "Produto B", "Produto C", "Produto D"]
@@ -43,3 +50,5 @@ print(todos_produtos)
 todos_produtos.sort(reverse=True)
 print(todos_produtos)
 # %%
+
+
