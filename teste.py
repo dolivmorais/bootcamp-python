@@ -1,3 +1,18 @@
+'''
+criar o repositorio no github
+pyenv 3.11.5
+poetry init
+poetry enc use 3.11.5 
+power shell
+
+estrutura e corrigir codigo:
+poetry add black
+poetry add isort
+poetry add flake8
+
+
+
+'''
 # funcoes
 #%%
 def cadastrar_produto():
@@ -169,3 +184,4 @@ def separar_listas(precos, tamanhos, fator = 0.1):
 print(len(precos_imoveis))
 print(separar_listas(precos_imoveis, tamanhos_imoveis))
 # %%
+## 14. Docstring e Annotations
